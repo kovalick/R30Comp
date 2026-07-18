@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R30 Home Page</title>
+    <title>R30 Relay Computer Project</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             line-height: 1.6;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            background-color: #f9f9f9;
         }
         h1 {
-            color: #0f4761;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+            color: #111;
         }
-        a {
-            color: #215e99;
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
             text-decoration: none;
-            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
         }
-        a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background-color: #004499;
         }
     </style>
 </head>
 <body>
 
-    <h1>R30 Home Page</h1>
-    
-    <p>Welcome to the R30 project. Explore the history and evolution of computing below:</p>
+    <h1>R30 Relay Computer</h1>
+    <p>Welcome to the public portal for the R30 electromechanical relay computer project.</p>
 
-    <ul>
-        <li>
-            <a href="Backgrounder/BackgrounderHow300YearsofMechanicalCalculator.html">
-                Read: 300 Years of Calculators: From Pascal to Zuse
-            </a>
-        </li>
-    </ul>
+    <div class="card">
+        <h3>Active Simulators & Demos</h3>
+        <p>Test the responsive, interactive hardware adder simulation directly in your mobile or desktop browser.</p>
+        <a class="btn" href="Interactive-adder-demo-gemini-responsive.html">Launch Interactive Adder Demo 🚀</a>
+    </div>
 
 </body>
 </html>
